@@ -1,5 +1,5 @@
 ![header](.github/assets/3.png)
-Note: ⚠️ All the images used to showcase Amoops are not from the developer. Please refer to [sources.txt](.github/sources.txt) for image sources.
+⚠️ Note: All the images used to showcase Amoops are not from the developer. Please refer to [sources.txt](.github/sources.txt) for image sources.
 <br>
 <br>
 # 🍵 A quick presentation
