@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Font Awesome Solid';
+    src: url('../fonts/fa-solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Thin';
+    src: url('../fonts/SFPRODISPLAYTHIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Light Italic';
+    src: url('../fonts/SFPRODISPLAYLIGHTITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Thin Italic';
+    src: url('../fonts/SFPRODISPLAYTHINITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Black Italic';
+    src: url('../fonts/SFPRODISPLAYBLACKITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url('../fonts/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Ultralight Italic';
+    src: url('../fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Heavy Italic';
+    src: url('../fonts/SFPRODISPLAYHEAVYITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Semibold Italic';
+    src: url('../fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}

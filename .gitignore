@@ -1,0 +1,14 @@
+# CONTENTS:
+**/*.mp4
+**/*.png
+**/*.jpg
+**/*.webp
+**/*.mov
+**/*.gif
+**/*.jpeg
+# except in .github
+!.github/assets/*.png
+
+# BIN
+bin
+binaries

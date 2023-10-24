@@ -1,0 +1,80 @@
+body 
+{
+    font-family: 'SF Pro Display Regular';
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background
+{
+    background-color: black;
+    position: fixed;
+    background-image: url(/image/1);
+    top: -5vw;
+    left: -5vw;
+    width: 110%;
+    height: 110%;
+    z-index: -1; 
+    filter: blur(3.5vw) brightness(25%) contrast(120%);
+    background-size: cover;
+    background-position: center;
+    transition: all .25s ease-out 0s;
+}
+
+.full_container
+{
+    margin-top: 16.5%;
+    gap: 3.5vh;
+    position: relative;
+    display:grid;
+    width: 100vw;
+    max-width: 100%;
+    height: 90vh;
+    justify-items: center;
+}
+
+.container_image
+{
+    width: 90vw;
+    max-height: 70vh;
+    min-height: 70vh;
+    height: auto;
+    border-radius: 9vh;
+    object-fit: cover;
+    box-shadow: 0 0 10vw .001vh #ffffff2e;
+    transition: all .20s ease 0s;
+}
+
+.container_buttons
+{
+    position: relative;
+    top: -3.5vh;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.button
+{
+    position: relative;
+    font-family: 'Font Awesome Solid';
+    font-size: 5.5vh;
+    background-color: rgba(25, 25, 25, 0.5);
+    text-align: center;
+    color: white;
+    border-radius: 11vw;
+    box-shadow: 0 0 10vw .1vh #b0b0b080;
+    height: 11vh;
+    width: 11vh;
+    align-content: center;
+    display: grid;
+}
+
+.button_text
+{
+    transition: all .25s ease 0s;
+}

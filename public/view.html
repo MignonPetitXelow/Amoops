@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="public/css/view.css">
+        <link rel="stylesheet" type="text/css" href="public/css/infoPanel.css">
+        <link rel="stylesheet" type="text/css" href="public/css/fonts.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <script src="public/js/utils/anim.js"></script>
+        
+        <link rel="manifest" href="public/manifest.json">
+    </head>
+<body id="body">
+  
+    <div id="background" class="background"></div>
+    <div class="full_container" id="swipe-container">
+
+        <div style="width: 90vw; height: 70vh; display: grid; align-items: center;">
+            <img id="image" src="/image/1" alt="" onclick="compatibleOrNot()"  class="container_image">
+        </div>
+
+        <div class="container_buttons ">
+            <div class="button" onclick="likeButtonActive()" style="color: #FD8A8A; ">
+                <div class="button_text" id="likeButton">
+                    
+                </div>
+            </div>
+
+            <div class="button" onclick="showInfos(); infoButtonActive();" style="color: #9EA1D4; top: -1.2vh; height: 12vh; width: 12vh; ">
+                <div class="button_text" id="infoButton">
+                    
+                </div>
+            </div>
+
+            <div class="button" onclick="loadImage(); nextButtonActive();" style="color: #F1F7B5">
+                <div class="button_text" id="nextButton">
+                    
+                </div>
+            </div> <!>
+        </div>
+
+    </div>
+    <div class="info_panel_background" id="infopanelbackground" hidden="true"></div>
+    <div class="info_panel" id="infopanel" hidden="true">
+        <img id="infopanelpreview" src="/image/1" onclick="compatibleOrNot()" class="info_panel_image_preview">
+        <div class="info_panel_box" id="infopanelbox">
+            <div class="info_panel_box_container"> 
+                <span style="text-decoration: none; font-family: 'SF Pro Display Bold'; font-size: 3.5vh">Image info's</span>
+                <div class="info_panel_container" style="padding-top: 1.5vh;" id="infopaneltagscontainer"></div>
+                <span style="font-family: 'SF Pro Display Medium'; font-size: 3.5vh;">Date submited:</span>
+                <div class="info_panel_container" id="infopaneldate">
+                    
+                </div>
+            </div>
+            <div style="display: flex; align-content: center; justify-content: flex-start; gap: 1vw;">
+                <div class="info_panel_close_button" onclick="closeInfos()">Close</div>
+                <div class="info_panel_addtag_button" onclick="showTagAdderMenu()"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/changeImage.js"></script>
+    <script src="public/js/infoPanel.js"></script>
+    <script src="public/js/buttonsAnimation.js"></script>
+    <script src="public/js/tagAdder.js"></script>
+    <script>loadImage();</script>
+</body>
+</html>
