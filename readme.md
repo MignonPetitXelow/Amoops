@@ -10,7 +10,7 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 <br>
 ### 🤖 What langages Amoops use?
 
-- Golang: Amoops utilizes Golang for the server-side development. Golang is a robust and efficient programming language that ensures the server's performance and reliability.
+- Golang: Amoops utilizes Golang, along with the Echo web framework, for server-side development. Golang is a robust and efficient programming language, and the Echo framework ensures the server's performance and reliability.
 
 - JavaScript (JS): JavaScript is employed for client-side scripting, enhancing the user experience by enabling dynamic and interactive features.
 
