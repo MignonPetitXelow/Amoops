@@ -19,9 +19,19 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 
 - CSS: Cascading Style Sheets (CSS) are responsible for the visual design and layout of the website, making it visually appealing and user-friendly.
 <br>
-<br>
-<br>
+### ❓Questions and Answer:
 
+- Q: Can we use it has a porn image collection?
+    - A: Yes.
+
+- Q: Is there a app to access to the server?
+    - A: No, however, you can use WebClip instead; it works perfectly fine.
+
+- Q: Can I add new tag names directly in the app?
+    - A: As of October 25, 2023, you can't add new tags directly in the app, but you can modify the tags.json file instead.
+<br>
+<br>
+<br>
 
 ![installation](.github/assets/3.png)
 ## 💾 Installation
