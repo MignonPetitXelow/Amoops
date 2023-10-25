@@ -23,7 +23,7 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 
 ### ❓Questions and Answer:
 
-- Q: Can we use it has a porn image collection?
+- Q: Can it be used as a collection of adult content images?
     - A: Yes.
 
 - Q: Is there a app to access to the server?
