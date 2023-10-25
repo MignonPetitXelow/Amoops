@@ -6,24 +6,24 @@ async function showTagAdderMenu() {
     const data_image = await response2.json();
   
     const tags = document.createElement('div');
-    tags.style.cssText = 'z-index: 5; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; display: grid; justify-content: center; align-items: end;';
+    tags.className = 'tagBoxContainer';
   
     const innerDiv = document.createElement('div');
-    innerDiv.style.cssText = 'color: white; padding: 1vh; border-radius: 25px; display: flex; flex-wrap: wrap; gap: .7vh; scrollbar-color: rgba(0,0,0,0); overflow: hidden scroll; margin: 0vh 1.6vw 2vh; height: 39.5vh; align-content: flex-start;';
+    innerDiv.className = 'tagsContainer';
     
     const tagAdderContainer = document.createElement('div');
-    tagAdderContainer.style.cssText = 'color: white; padding: 0.8vh; width: 91.5vw; height: 60vh; background-color: rgb(22,22,24); border-radius: 10vw; display: grid; margin-bottom: 3.5vh; align-content: center;'
+    tagAdderContainer.className = 'tagBoxPanel';
 
     data.tags.forEach(tag => {
         const div = document.createElement('div');
         div.className = 'info_panel_tag';
         div.style.fontSize = '2vh';
         div.style.transition = 'all 0.5s ease 0s;'
-        div.style.fontFamily = 'SF Pro Display Thin'
+        div.style.fontFamily = 'SF Pro Display Regular'
         if (data_image.tags.includes(tag) || localStorage.getItem("tags")?.split('&').includes(tag) ) {
             div.style.backgroundColor = '#4a3d86';
         }
-        div.textContent = tag.replace("_", " ");;
+        div.textContent = tag.replaceAll("_", " ");;
         div.onclick = function () {
             const currentTags = localStorage.getItem("tags") || '';
             const tagArray = currentTags.split('&');
@@ -88,10 +88,10 @@ async function showTagAdderMenu() {
         innerDiv.innerHTML = ''; 
 
         data.tags.forEach(tag => {
-            if (tag.toLowerCase().includes(searchText.toLowerCase())) {
+            if (tag.toLowerCase().includes(searchText.toLowerCase().replaceAll(" ", "_"))) {
                 const div = document.createElement('div');
                 div.className = 'info_panel_tag';
-                div.style.fontSize = '1.8vh';
+                div.style.fontSize = '2vh';
                 div.style.transition = 'all 0.5s ease 0s;';
                 div.style.fontFamily = 'SF Pro Display Regular';
 
@@ -99,7 +99,7 @@ async function showTagAdderMenu() {
                     div.style.backgroundColor = '#4a3d86';
                 }
 
-                div.textContent = tag.replace("_", " ");
+                div.textContent = tag.replaceAll("_", " ");
 
                 div.onclick = function () {
                     const currentTags = localStorage.getItem("tags") || '';

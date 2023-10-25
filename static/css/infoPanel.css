@@ -81,12 +81,14 @@
 {
     border-radius: 7.5vw;
     opacity: 1;
-    max-height: 28vh;
+    max-height: 25vh;
     max-width: 95vw;
     width: auto;
     justify-self: center;
     box-shadow: 0 0 15vw .1vh #b0b0b080;
     transition: all .25s ease 0s;
+    top: 3.5vh;
+    position: relative;
 }
 
 .info_panel_box_container
@@ -116,7 +118,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    max-height: 35vh;
+    max-height: 30vh;
     gap: .5vh;
     padding-bottom: .5vh;
     scrollbar-color: rgba(0,0,0,0);

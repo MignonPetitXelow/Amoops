@@ -1,0 +1,42 @@
+.tagBoxContainer
+{
+    z-index: 5; 
+    position: 
+    fixed; 
+    top: 0; 
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    display: grid; 
+    justify-content: center; 
+    align-items: end;
+}
+
+.tagsContainer
+{
+    color: white; 
+    padding: 1vh; 
+    border-radius: 25px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: .7vh; 
+    scrollbar-color: rgba(0,0,0,0); 
+    overflow: hidden scroll; 
+    margin: 0vh 1.6vw 2vh; 
+    height: 39.5vh; 
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.tagBoxPanel
+{
+    color: white; 
+    padding: 0.8vh; 
+    width: 91.5vw; 
+    height: 60vh; 
+    background-color: rgb(22,22,24); 
+    border-radius: 10vw; 
+    display: grid; 
+    margin-bottom: 3.5vh; 
+    align-content: center;
+}

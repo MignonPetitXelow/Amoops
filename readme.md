@@ -1,5 +1,6 @@
-![header](.github/assets/3.png)
+![header](.github/assets/1.png)
 ⚠️ Note: All the images used to showcase Amoops are not from the developer. Please refer to [sources.txt](.github/sources.txt) for image sources.
+<br>
 <br>
 <br>
 # 🍵 A quick presentation
@@ -7,7 +8,7 @@
 ## ❓ What is Amoops?
 Amoops is a personal image collection server that functions like Gelbooru. With Amoops, you can curate and organize your own collection of images of various kinds, and you have the flexibility to add tags to each image. Please note that it is currently in a pre-alpha stage, so expect potential issues and limitations. Nevertheless, it works seamlessly offline and is entirely free to use.
 <br>
-<br>
+
 ### 🤖 What langages Amoops use?
 
 - Golang: Amoops utilizes Golang, along with the Echo web framework, for server-side development. Golang is a robust and efficient programming language, and the Echo framework ensures the server's performance and reliability.
@@ -19,6 +20,28 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 - CSS: Cascading Style Sheets (CSS) are responsible for the visual design and layout of the website, making it visually appealing and user-friendly.
 <br>
 <br>
+<br>
 
-# Installation
-![installation](.github/assets/1.png)
+
+![installation](.github/assets/3.png)
+## 💾 Installation
+
+### ⚠️ Before proceeding, make sure you have the "Go" package installed on your distribution if you are on Linux. You can download and install Go from the [official website](https://golang.org/dl/) or use your distribution's package manager to install it.
+
+#### 📦 Clone the repository
+
+```bash
+$ git clone https://github.com/MignonPetitXelow/Amoops.git ; cd Amoops
+```
+
+#### ⛓️ Install dependencies and build
+```go
+$ go mod tidy
+$ make
+```
+#### 🍡 Run the server
+
+```
+$ ./amoops
+```
+notes: ⚠️ By default, the program runs on port 1024. To access the website, open a web browser and navigate to `localhost:1024`.

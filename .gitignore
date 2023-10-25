@@ -6,6 +6,7 @@
 **/*.mov
 **/*.gif
 **/*.jpeg
+**/*.json
 # except in .github
 !.github/assets/*.png
 
