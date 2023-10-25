@@ -3,10 +3,12 @@
 <br>
 <br>
 <br>
+<br>
 # 🍵 A quick presentation
 ![presentation](.github/assets/2.png)
 ## ❓ What is Amoops?
 Amoops is a personal image collection server that functions like Gelbooru. With Amoops, you can curate and organize your own collection of images of various kinds, and you have the flexibility to add tags to each image. Please note that it is currently in a pre-alpha stage, so expect potential issues and limitations. Nevertheless, it works seamlessly offline and is entirely free to use.
+<br>
 <br>
 
 ### 🤖 What langages Amoops use?
@@ -18,7 +20,7 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 - HTML: HTML (Hypertext Markup Language) is used to structure the content of web pages, ensuring a well-organized and accessible user interface.
 
 - CSS: Cascading Style Sheets (CSS) are responsible for the visual design and layout of the website, making it visually appealing and user-friendly.
-<br>
+
 ### ❓Questions and Answer:
 
 - Q: Can we use it has a porn image collection?
@@ -29,7 +31,6 @@ Amoops is a personal image collection server that functions like Gelbooru. With 
 
 - Q: Can I add new tag names directly in the app?
     - A: As of October 25, 2023, you can't add new tags directly in the app, but you can modify the tags.json file instead.
-<br>
 <br>
 <br>
 
